@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: pyramid_app
+Version: 0.1
+Requires-Dist: pyramid
+Dynamic: requires-dist

@@ -1,0 +1,14 @@
+# Base de datos local
+app.db
+
+# Archivos de configuración oculta
+.env
+
+# Python caché
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Entorno virtual (por si creaste uno)
+venv/
+.venv/

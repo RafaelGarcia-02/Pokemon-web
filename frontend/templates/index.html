@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Inicio - {{ project_name }}{% endblock %}
+
+{% block content %}
+    <h2>Bienvenido a la aplicación</h2>
+    <p>Esta aplicación interactúa con un Backend en Pyramid y una Base de Datos SQLite.</p>
+    
+    <div class="card">
+        <h3>Datos cargados dinámicamente desde el API:</h3>
+        <div id="api-data">Cargando datos del backend...</div>
+    </div>
+{% endblock %}

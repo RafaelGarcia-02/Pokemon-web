@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Pokedex - Entrenador{% endblock %}
+{% block content %}
+    <div style="background-color: #e6f7ff; padding: 20px; border-radius: 8px; border: 2px solid #0050b3;">
+        <h2>¡Hola Entrenador {{ user_name }}! 🎒</h2>
+        <p>Estás logueado como un usuario común. Esta será tu Pokédex personal.</p>
+        <hr>
+        <a href="/logout" style="color: red; font-weight: bold;">🚪 Cerrar Sesión (Logout)</a>
+    </div>
+{% endblock %}
