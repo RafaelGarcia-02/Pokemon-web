@@ -56,19 +56,19 @@ def init_database():
             pokedex_number=1, name="Bulbasaur", 
             type1_id=type_objs["Planta"].id, type2_id=type_objs["Veneno"].id, 
             hp=45, attack=49, defense=49, 
-            image_url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+            image_url="https://raw.githubusercontent.com/RafaelGarcia-02/Pokemon-web/main/img/1.png"
         )
         p2 = Pokemon(
             pokedex_number=4, name="Charmander", 
             type1_id=type_objs["Fuego"].id, type2_id=None, 
             hp=39, attack=52, defense=43, 
-            image_url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+            image_url="https://raw.githubusercontent.com/RafaelGarcia-02/Pokemon-web/main/img/4.png"
         )
         p3 = Pokemon(
             pokedex_number=7, name="Squirtle", 
             type1_id=type_objs["Agua"].id, type2_id=None, 
             hp=44, attack=48, defense=65, 
-            image_url="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+            image_url="https://raw.githubusercontent.com/RafaelGarcia-02/Pokemon-web/main/img/7.png"
         )
         
         db.add_all([p1, p2, p3])
